@@ -1,0 +1,82 @@
+:root {
+    --header-background-color: #03a84e;
+    --preset--color--current-color: #03a84e;
+    --header-background-color-alpha: #03a84e50;
+    --preset--color--primary: #2bbd7e;
+    --preset--color--primary-light: #2bbd7e78;
+    --preset--color--primary-lighter: #2bbd7e21;
+    --preset--color--secondary: #95d5b2;
+    --preset--color--secondary-light: #2bbd7e78;
+    --preset--color--secondary-lighter: #2bbd7e21;
+    --preset--color--vivid-red: #cf2e2e;
+    --preset--color--pale-pink: #f78da7;
+    --preset--color--luminous-vivid-orange: #ff6900;
+    --preset--color--luminous-vivid-amber: #fcb900;
+    --preset--color--neutral-200: #f1f1ff;
+    --default-color: #eef8f5ff;
+}
+
+.text-color-default {
+    color: var(--default-color) !important;
+}
+
+.text-color-primary {
+    color: var(--preset--color--current-color) !important;
+}
+
+.text-color-primary-light {
+    color: var(--preset--color--primary-light) !important;
+}
+
+.text-color-primary-lighter {
+    color: var(--preset--color--primary-lighter) !important;
+}
+
+.text-color-primary-alpha {
+    color: var(--header-background-color-alpha) !important;
+}
+
+.text-color-danger {
+    color: var(--preset--color--vivid-red) !important;
+}
+
+.text-color-secondary-lighter {
+    color: var(--preset--color--secondary-lighter) !important;
+}
+
+.text-color-secondary-natural-200 {
+    color: var(--preset--color--neutral-200) !important;
+}
+
+/* bg color */
+.bg-color-primary {
+    background-color: var(--preset--color--current-color) !important;
+}
+
+.bg-color-primary-light {
+    background-color: var(--preset--color--primary-light) !important;
+}
+
+.bg-color-primary-lighter {
+    background-color: var(--preset--color--primary-lighter) !important;
+}
+
+.bg-color-primary-alpha {
+    background-color: var(--header-background-color-alpha) !important;
+}
+
+.bg-color-danger {
+    background-color: var(--preset--color--vivid-red) !important;
+}
+
+.bg-color-secondary-lighter {
+    background-color: var(--preset--color--secondary-lighter) !important;
+}
+
+.bg-color-secondary-natural-200 {
+    background-color: var(--preset--color--neutral-200) !important;
+}
+
+.bg-color-default {
+    background-color: var(--default-color) !important;
+}
