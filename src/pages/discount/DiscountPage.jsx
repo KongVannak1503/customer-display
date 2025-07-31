@@ -5,8 +5,6 @@ import DiscountCarousel from '../../components/discounts/DiscountCarousel';
 
 export default function DiscountPage() {
     return (
-        <div>
-            <DiscountCarousel />
-        </div>
+        <DiscountCarousel />
     );
 }

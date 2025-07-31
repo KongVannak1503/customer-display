@@ -1,10 +1,9 @@
 import React from 'react'
+import LiveCartComponent from '../../components/live-cart/LiveCartComponent'
 
 const LiveCartPage = () => {
     return (
-        <div>
-            Hello this live cart
-        </div>
+        <LiveCartComponent />
     )
 }
 
